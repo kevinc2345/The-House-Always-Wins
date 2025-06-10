@@ -3,134 +3,65 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>The Truth About Gambling</title>
+  <title>The Reality Behind Gambling</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #111;
-      color: #fff;
+    html, body {
       margin: 0;
       padding: 0;
-      line-height: 1.6;
+      height: 100%;
+      background-color: #000;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
     }
 
-    header, footer {
-      background: #222;
+    #stage {
+      width: 480px;
+      height: 360px;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
       padding: 1em;
+      box-sizing: border-box;
+      border: 2px solid #fff;
     }
 
-    main {
-      padding: 2em;
-      max-width: 900px;
-      margin: auto;
+    .typewriter {
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid white;
+      animation: typing 8s steps(60, end) forwards, blink 0.75s step-end infinite;
     }
 
-    section {
-      margin-bottom: 3em;
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
     }
 
-    h1, h2 {
-      color: #f44336;
+    @keyframes blink {
+      0%, 100% { border-color: transparent; }
+      50% { border-color: white; }
     }
 
-    ul {
-      padding-left: 1.5em;
-    }
-
-    .highlight {
-      font-size: 1.5em;
-      text-align: center;
-      margin: 2em 0;
-    }
-
-    .fade-screen {
-      background-color: black;
-      color: white;
-      padding: 2em;
-      font-family: monospace;
-      text-align: center;
-      animation: fadeIn 5s ease-in-out;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
+    /* Optional: scale down a bit for smaller screens */
+    @media (max-width: 500px) {
+      #stage {
+        transform: scale(0.8);
+      }
     }
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>The Reality Behind Gambling Addiction</h1>
-  </header>
-
-  <section class="fade-screen">
-    <p>Game Ends – The screen slowly fades into black...</p>
-    <p><strong>5 million US dollars</strong><br/>Is what casinos around the world make per day on average</p>
-    <p><strong>20 million Americans</strong><br/>Struggle with gambling problems</p>
-    <p><strong>Suicide rate among problem gamblers</strong> is 15 times higher than the general population</p>
-    <p><strong>Don't gamble. The house always wins.</strong></p>
-  </section>
-
-  <main>
-    <section>
-      <h2>How Casinos Always Win</h2>
-      <p>Whenever someone gambles, the house always has the advantage. This is due to a mathematical advantage known as the "house edge." For example, American roulette has both a 0 and 00, making the odds worse for the player. Although a bet on a single number might seem like 1 in 36, the real odds are 1 in 38 — giving the house a 5.26% edge.</p>
-      <p>Slot machines are even worse. They're programmed to ensure the house profits over time, and while occasional wins occur, the system is built to make players lose gradually while keeping them hooked with flashing lights and near-misses.</p>
-    </section>
-
-    <section>
-      <h2>Facts and Statistics</h2>
-      <ul>
-        <li>Up to 20 million Americans have gambling problems or are at risk.</li>
-        <li>75% of problem gamblers use slot machines — the most addictive form of gambling.</li>
-        <li>60% of problem gamblers smoke; 26% suffer from alcoholism.</li>
-        <li>Suicide rates among problem gamblers are 15 times higher than average.</li>
-        <li>81% of gambling addicts play online.</li>
-        <li>Annual gambling losses in the U.S. exceed $100 billion.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Why Gambling is So Addictive</h2>
-      <p>To prevent gambling addiction, we must understand its causes. Gambling websites and casinos are designed to be addictive. Online platforms use near-misses, flashy visuals, and 24/7 access to keep users engaged. Physical casinos eliminate clocks and windows, offer free drinks, and create a stimulating environment so players lose track of time and money.</p>
-      <p>Many young people fall into gambling traps because they are unaware of the manipulation tactics used. Without education on the risks and mechanics of gambling, they view it as a quick way to earn money or just a game — increasing their vulnerability to addiction.</p>
-    </section>
-
-    <section>
-      <h2>Consequences</h2>
-      <p>Gambling can destroy lives. It leads to financial stress, mental illness, self-harm, and even suicide. But the damage doesn't stop there — for every one addicted gambler, at least six other people suffer the consequences: partners, children, parents, and friends.</p>
-      <p>In some cases, gambling addiction becomes generational. The trauma, habits, and financial ruin are passed down, affecting future relationships and families.</p>
-    </section>
-
-    <section>
-      <h2>Protect Yourself</h2>
-      <ul>
-        <li><strong>Know the truth:</strong> The house always wins. The system is rigged against you.</li>
-        <li><strong>Set limits:</strong> If you choose to gamble, use strict time and money limits — and stick to them.</li>
-        <li><strong>Never chase losses:</strong> This is a guaranteed way to lose more.</li>
-        <li><strong>Understand the manipulation:</strong> Casinos and apps use psychology to keep you playing — stay aware.</li>
-        <li><strong>Focus on real rewards:</strong> Invest your time and energy into hobbies, learning, fitness, or career goals.</li>
-        <li><strong>Talk about it:</strong> Open conversations about gambling with friends or family can help spread awareness and prevent harm.</li>
-        <li><strong>Block gambling apps/sites:</strong> Use software tools to block access if you feel tempted.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Help and Resources</h2>
-      <ul>
-        <li><a href="https://www.ncpgambling.org" target="_blank" style="color: #4fc3f7;">National Council on Problem Gambling</a></li>
-        <li><a href="https://www.gamblersanonymous.org" target="_blank" style="color: #4fc3f7;">Gamblers Anonymous</a></li>
-        <li>Call or text 1-800-GAMBLER (24/7 confidential support)</li>
-        <li>Talk to a mental health professional or counselor if you’re struggling</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 The Truth About Gambling | Spread awareness, save lives.</p>
-  </footer>
-
+  <div id="stage">
+    <div class="typewriter">
+      5 million US dollars. Casinos make this daily. 20 million Americans struggle. Suicide rate is 15x higher. The house always wins.
+    </div>
+  </div>
 </body>
 </html>
